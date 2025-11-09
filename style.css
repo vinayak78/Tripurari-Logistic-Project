@@ -28,8 +28,9 @@ body {
     display: inline-block;
     /* padding: 10px 20px; */
     margin-left: 50px;
-    
+
 }
+
 /* .buttons:hover {
     background-color: rgb(15, 85, 214);
     color: white;
@@ -87,32 +88,39 @@ body {
     color: rgb(210, 210, 225);
     background-color: rgba(32, 25, 227, 0.656);
 }
-.Third{
-background-color: rgb(61, 24, 209);
+
+.Third {
+    background-color: rgb(61, 24, 209);
 
 }
-.fleetdescription{
+
+.fleetdescription {
     margin-left: 50px;
     padding: 5px 70px;
 }
-h4{
+
+h4 {
     background-color: rgb(61, 24, 209);
     /* padding: 50px; */
 }
-ul{
+
+ul {
     background-color: rgb(61, 24, 209);
 
 }
-li{
-    background-color: rgb(61, 24, 209); 
+
+li {
+    background-color: rgb(61, 24, 209);
 
 
 }
-.Heading{
+
+.Heading {
     Padding: 10px 70px;
-   margin-left:50px
+    margin-left: 50px
 }
-.Features{
+
+.Features {
     /* margin-left: 50px;
     padding: 5px 70px; */
     display: flex;
@@ -123,42 +131,115 @@ li{
     padding: 1px 70px;
     margin-left: 50px;
 }
-h2{
+
+h2 {
     /* background-color: rgb(61, 24, 209); */
     margin-left: 50px;
     padding: 5px 70px;
 }
 
 
-.Box2{
+.Box2 {
     padding: 1px 70px;
     margin-left: 50px;
 
 }
-.icon{
+
+.icon {
     height: 60px;
     width: 60px;
     float: left;
     padding-right: 10px;
 
 }
-.Table2{
+
+.Table2 {
     list-style-type: square;
     /* margin-left: 20px; */
     padding: 10px 70px;
     background-color: #13192B;
 }
-.list-item{
-    padding: 5px 0px;
-    background-color:#13192B;}
 
-.Contact{
-    display: inline-block;
-    padding: 10px;
-    /* margin: 20px; */
-    float: right;
+.list-item {
+    padding: 5px 0px;
+    background-color: #13192B;
 }
-.Booking{
+
+.Booking {
     margin-left: 50px;
     padding: 5px 70px;
+}
+.ContactDetails {
+  display: flex;
+  align-items: flex-start;   
+  margin-left: 25px;        
+  flex-direction: column;   
+  margin-top: -5px;         
+  gap: 6px;   
+}
+.Contact{
+ color: white;             
+  font-size: 0.95rem;
+  line-height: 1.4;  
+}
+.Customer{
+    padding: 5px 70px;
+    margin-left: 50px;
+}
+.Service{
+    margin-left: 50px;
+    padding: 5px 70px;
+}
+
+.icon1{
+     float: right;
+    height: 200px;
+    width: 250px;
+} 
+.Servicelist{
+    /* float: left; */
+    background-color: #13192B;
+    color: white;
+}
+.footer{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px 70px;  
+   gap:30px;
+  
+}
+.Mobile{
+    font-weight: bold;
+    border:3px solid white;
+    border-radius: 10px;
+   padding: 30px;
+}
+.Email{
+    font-weight: bold;
+    border:3px solid white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.office{
+    font-weight: bold;
+    border:3px solid white; 
+ border-radius: 10px;
+   padding: 30px;
+}
+pre{
+    margin-left: 50px;
+    padding: 5px 70px;  
+}
+.Callus{
+   background: #032649;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 0.85rem 1.6rem;
+  min-height: 48px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .12s ease;
+   display: flex;
 }
